@@ -694,14 +694,14 @@ Dialogue: 0,0:31:49.66,0:31:52.32,English,,0,0,0,,You don't get the same amortiz
 Dialogue: 0,0:31:49.66,0:31:52.32,Chinese,,0,0,0,,你没有获得相同的摊销权，你可能得到一个
 Dialogue: 0,0:31:52.80,0:31:53.98,English,,0,0,0,,You bring the block in
 Dialogue: 0,0:31:52.80,0:31:53.98,Chinese,,0,0,0,,你把块带进来
-Dialogue: 0,0:31:55.10,0:31:57.62,English,,0,0,0,,So there's a reference you get a miss you bring the block in
-Dialogue: 0,0:31:55.10,0:31:57.62,Chinese,,0,0,0,,所以有一个参考，你得到一个小姐，你带来了块
+Dialogue: 0,0:31:55.10,0:31:57.62,English,,0,0,0,,So there's a reference you get a miss， you bring the block in
+Dialogue: 0,0:31:55.10,0:31:57.62,Chinese,,0,0,0,,所以如果你有一个未命中的引用，你引入所需的块
 Dialogue: 0,0:31:58.12,0:32:01.60,English,,0,0,0,,There's another reference nearby you get a hit because the blocks in memory
-Dialogue: 0,0:31:58.12,0:32:01.60,Chinese,,0,0,0,,附近有另一个参考，因为内存中的块，你会受到打击
+Dialogue: 0,0:31:58.12,0:32:01.60,Chinese,,0,0,0,,然后这个块中刚好有你所需的附近的引用，你会命中
 Dialogue: 0,0:32:02.24,0:32:04.76,English,,0,0,0,,But then the next reference is in a different block
-Dialogue: 0,0:32:02.24,0:32:04.76,Chinese,,0,0,0,,但接下来的参考文献是在不同的块中
+Dialogue: 0,0:32:02.24,0:32:04.76,Chinese,,0,0,0,,但接下来的引用会分配到另外的块中
 Dialogue: 0,0:32:05.32,0:32:06.90,English,,0,0,0,,Because your block sizes are too small
-Dialogue: 0,0:32:05.32,0:32:06.90,Chinese,,0,0,0,,因为你的块大小太小
+Dialogue: 0,0:32:05.32,0:32:06.90,Chinese,,0,0,0,,因为你的块太小
 Dialogue: 0,0:32:07.22,0:32:11.68,English,,0,0,0,,Right so you kind of want to make blocks big as big as possible
 Dialogue: 0,0:32:07.22,0:32:11.68,Chinese,,0,0,0,,是的，所以你想要制作尽可能大的积木
 Dialogue: 0,0:32:12.10,0:32:13.74,English,,0,0,0,,But without slowing the system down
@@ -711,7 +711,7 @@ Dialogue: 0,0:32:13.74,0:32:17.84,Chinese,,0,0,0,,因此，如果你将块大小
 Dialogue: 0,0:32:19.06,0:32:26.10,English,,0,0,0,,Plus now your blocks,that your blocks are taking up bits in your cache memory
 Dialogue: 0,0:32:19.06,0:32:26.10,Chinese,,0,0,0,,再加上你的块，你的块占用缓存内存中的位
 Dialogue: 0,0:32:26.48,0:32:28.12,English,,0,0,0,,So now there's no room for other blocks
-Dialogue: 0,0:32:26.48,0:32:28.12,Chinese,,0,0,0,,所以现在没有其他街区的空间了
+Dialogue: 0,0:32:26.48,0:32:28.12,Chinese,,0,0,0,,所以现在没有其他块的空间了
 Dialogue: 0,0:32:28.12,0:32:32.12,English,,0,0,0,,Right so it's a really tricky design problem right and
 Dialogue: 0,0:32:28.12,0:32:32.12,Chinese,,0,0,0,,对，所以这是一个非常棘手的设计问题
 Dialogue: 0,0:32:32.60,0:32:37.54,English,,0,0,0,,If we're doing it taking an architecture class then we would sort of dive into the
@@ -732,10 +732,10 @@ Dialogue: 0,0:33:03.00,0:33:07.32,English,,0,0,0,,Yeah I don't know of any cache
 Dialogue: 0,0:33:03.00,0:33:07.32,Chinese,,0,0,0,,是的我不知道任何不这样做的缓存
 Dialogue: 0,0:33:07.92,0:33:09.48,English,,0,0,0,,Now we'll see when we look at rights
 Dialogue: 0,0:33:07.92,0:33:09.48,Chinese,,0,0,0,,现在我们将看到我们何时看待权利
-Dialogue: 0,0:33:10.70,0:33:14.88,English,,0,0,0,,We'll see there's an option of whether we're only looking at reads right now
+Dialogue: 0,0:33:10.70,0:33:14.88,English,,0,0,0,,We'll see there's an option of whether we're only looking at reads writes now
 Dialogue: 0,0:33:10.70,0:33:14.88,Chinese,,0,0,0,,我们会看到有一个选项，我们是否只是立即查看读取
-Dialogue: 0,0:33:15.16,0:33:17.02,English,,0,0,0,,But with rights that question does come up
-Dialogue: 0,0:33:15.16,0:33:17.02,Chinese,,0,0,0,,但是权利确实会出现问题
+Dialogue: 0,0:33:15.16,0:33:17.02,English,,0,0,0,,But with writes that question does come up
+Dialogue: 0,0:33:15.16,0:33:17.02,Chinese,,0,0,0,,但是写入数据这个问题确实会出现
 Dialogue: 0,0:33:17.86,0:33:24.02,English,,0,0,0,,If you wait in a couple of slides we'll go over that
 Dialogue: 0,0:33:17.86,0:33:24.02,Chinese,,0,0,0,,如果你在几张幻灯片中等待，我们就会过去
 Dialogue: 0,0:33:24.78,0:33:25.80,English,,0,0,0,,Any other questions
